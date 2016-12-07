@@ -1,0 +1,30 @@
+
+
+.index_list {
+    list-style-type: none;
+    margin: 10;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3f51b5;
+}
+
+ .index_1{
+    float: left;
+}
+
+.index_1 a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.index_1 a:hover {
+    background-color: #303f9f;
+}
+.name {
+  font-family: 'Lobster', serif;
+  font-size: 48px;
+  text-align: center;
+}
