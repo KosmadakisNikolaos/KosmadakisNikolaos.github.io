@@ -1,4 +1,6 @@
-
+body {
+  background-image: url("csy1018.assign1.images/background.jpg");
+}
 
 .index_list {
     list-style-type: none;
@@ -31,9 +33,9 @@
 
 }
 
-#table {display:table;}
-.row {display:table-row; }
-.cell{display:table-cell;}
+#unordered_lists {display:table;}
+.table-row {display:table-row; }
+.table-cell{display:table-cell;}
 
 #courses_text {
   text-align: center;
