@@ -1,5 +1,7 @@
 body {
   background-image: url("csy1018.assign1.images/finalback.jpg");
+  font-size: 17px;
+  font-family: "Exo", Times, serif;
 
 }
 #myDog {  /* blalala */
@@ -34,7 +36,7 @@ body {
 }
 .name {
   font-family: 'Lobster', serif;
-  font-size: 48px;
+  font-size: 52px;
   text-align: center;
 
 }
@@ -66,5 +68,7 @@ body {
 }
 
 #footer_text {
-  
+  font-family: 'Pacifico', serif;
+  font-size: 20px;
+  text-align: center;
 }
