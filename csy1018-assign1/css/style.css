@@ -1,6 +1,6 @@
 body {
   background-image: url("../images/finalback.jpg");
-  font-size: 17px;
+  font-size: 17px; /* convert to em  */
   font-family: "Exo", Times, serif;
 
 }
@@ -10,7 +10,7 @@ body {
   padding-top: 5px;
   border-radius: 25%;
 }
-.index_list {
+.index_list { /* blalala */
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -18,12 +18,12 @@ body {
     background-color: #3f51b5;
 }
 
- .index_1{
+ .index_1{ /* blalala */
     float: left;
     border-right:1px solid #bbb;
 }
 
-.index_1 a {
+.index_1 a { /* blalala */
     display: block;
     color: white;
     text-align: center;
@@ -31,24 +31,25 @@ body {
     text-decoration: none;
 }
 
-.index_1 a:hover {
+.index_1 a:hover { /* blalala */
     background-color: #303f9f;
 }
-.name {
+.name { /* blalala */
   font-family: 'Lobster', serif;
-  font-size: 52px;
-  text-align: center;
+  font-size: 52px; /* convert to em */
+  text-align:center;
 
 }
 
-#unordered_lists {display:table;}
+#unordered_lists {display:table;} /* blalala */
 .table-row {display:table-row; }
 .table-cell{display:table-cell;}
 
-#courses_text {
+#courses_text { /* blalala */
   text-align: center;
   text-decoration: underline;
-  font-size: 40px;
+  font-size: 40px; /* convert to em
+    */
 }
 
 .img_right {
@@ -69,6 +70,10 @@ body {
 
 #footer_text {
   font-family: 'Pacifico', serif;
-  font-size: 20px;
+  font-size: 20px; /* convert to em  */
   text-align: center;
 }
+#dogpawlogo {
+    position: absolute;
+    top:1%;
+    }
