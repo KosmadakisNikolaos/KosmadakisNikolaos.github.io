@@ -1,58 +1,62 @@
-body {
+body { /* background image for all of my pages */
   background-image: url("../images/finalback.jpg");
-  font-size: 17px; /* convert to em  */
+  font-size: 1.0625em;
   font-family: "Exo", Times, serif;
 
 }
-#myDog {  /* blalala */
+#myDog {  /* this id is for my index picture */
   display: block;
   margin:auto;
   padding-top: 5px;
-  border-radius: 25%;
+  border-radius: 25%; /* this css line "cuts" corner of the picture */
 }
-.index_list { /* blalala */
+.index_list { /* this is for navigation bar */
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #3f51b5;
+    background-color: #3f51b5; /* blue color is used  */
 }
 
- .index_1{ /* blalala */
+ .index_1{ /* navbar is located to the left side of the screen */
     float: left;
     border-right:1px solid #bbb;
 }
 
-.index_1 a { /* blalala */
+.index_1 a { /* this css style modifies the navbar */
     display: block;
-    color: white;
+    color: white; /*letters color in navigation bar is white */
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-.index_1 a:hover { /* blalala */
-    background-color: #303f9f;
+.index_1 a:hover { /* hover is generated according to
+  ‘Material Design’ UI Style guide. */
+    background-color: #303f9f; /* hover color is slight lighter than
+    navbar */
 }
-.name { /* blalala */
+.name { /* css class for header*/
   font-family: 'Lobster', serif;
-  font-size: 52px; /* convert to em */
+  font-size: 3.25em; 
   text-align:center;
 
 }
 
-#unordered_lists {display:table;} /* blalala */
+#unordered_lists {display:table;} /* this modifies my unordered list
+in CV  */
 .table-row {display:table-row; }
 .table-cell{display:table-cell;}
 
-#courses_text { /* blalala */
+#courses_text { /*this modifies my unordered list
+in CV */
   text-align: center;
   text-decoration: underline;
-  font-size: 40px; /* convert to em
-    */
+  font-size: 2.5em;
+
 }
 
-.img_right {
+.img_right { /* this class aligns one of my footer images*/
     position: absolute;
     right: 15%;
     padding: 10px;
@@ -60,7 +64,7 @@ body {
     margin: 0 auto;
 }
 
-.img_left {
+.img_left { /* this class aligns one of my footer images*/
   position: absolute;
   left: 15%;
   padding: 10px;
@@ -68,12 +72,13 @@ body {
   margin: 0 auto;
 }
 
-#footer_text {
+#footer_text { /*this id modifies my footer text*/
   font-family: 'Pacifico', serif;
-  font-size: 20px; /* convert to em  */
+  font-size: 1.25em;
   text-align: center;
 }
-#dogpawlogo {
+#dogpawlogo { /*logo picture is at the left side of the screen and 1%
+  below from the top */
     position: absolute;
     top:1%;
     }
